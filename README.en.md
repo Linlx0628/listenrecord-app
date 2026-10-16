@@ -35,12 +35,18 @@ Recent releases continue in the same direction — making recording more effortl
 
 ## Interface preview
 
-<!-- Real screenshots to be added: drop images into assets/screenshots/ and replace this section
-![Live transcription](assets/screenshots/transcription.webp)
-![Meeting summary](assets/screenshots/summary.webp)
--->
-
-See the website for an interface and interaction walkthrough: [https://www.lingerx.cn](https://www.lingerx.cn)
+|  |  |
+|:--:|:--:|
+| ![Home](assets/screenshots/01-home.webp) | ![Recording actions](assets/screenshots/02-recording-actions.webp) |
+| **Home** — one entry point for recordings, tasks and calendar | **Recording actions** — quick note, translation, file transcription, recording history |
+| ![Live transcription](assets/screenshots/03-live-transcription.webp) | ![Transcript](assets/screenshots/04-transcript.webp) |
+| **Live transcription** — record and transcribe at once, with waveform and streaming status | **Transcript** — timestamps and speaker separation, jump back to any moment |
+| ![Summary templates](assets/screenshots/05-summary-templates.webp) | ![AI summary](assets/screenshots/06-summary.webp) |
+| **Summary templates** — 10 built-in templates by meeting type | **AI summary** — topics, decisions, risks and action items |
+| ![AI mind map](assets/screenshots/07-mindmap.webp) | ![Tasks](assets/screenshots/08-tasks.webp) |
+| **AI mind map** — expand the meeting structure into an exportable map | **Tasks** — action items extracted from meetings, with priority and due time |
+| ![Calendar](assets/screenshots/09-calendar.webp) | More screens and an interaction walkthrough on the website<br>[https://www.lingerx.cn](https://www.lingerx.cn) |
+| **Calendar** — monthly view aggregating recordings, tasks and AI summaries | |
 
 ## Why "local-first + Tauri 2"
 

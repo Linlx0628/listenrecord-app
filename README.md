@@ -35,12 +35,18 @@
 
 ## 界面预览
 
-<!-- 真实界面截图待补：把截图放入 assets/screenshots/ 后，用下面的写法逐个替换本段
-![实时转写](assets/screenshots/transcription.webp)
-![会议摘要](assets/screenshots/summary.webp)
--->
-
-界面与交互演示见官网：[https://www.lingerx.cn](https://www.lingerx.cn)
+|  |  |
+|:--:|:--:|
+| ![首页](assets/screenshots/01-home.webp) | ![录音入口](assets/screenshots/02-recording-actions.webp) |
+| **首页** —— 录音、任务与日程的统一入口 | **录音入口** —— 速记、翻译、文件转写与录音记录 |
+| ![实时转写](assets/screenshots/03-live-transcription.webp) | ![转写内容](assets/screenshots/04-transcript.webp) |
+| **实时转写** —— 边录边转，波形与流式识别状态实时可见 | **转写内容** —— 时间戳与说话人分离，可回放定位 |
+| ![摘要模板](assets/screenshots/05-summary-templates.webp) | ![AI 摘要](assets/screenshots/06-summary.webp) |
+| **摘要模板** —— 内置 10 类模板，按会议类型选择 | **AI 摘要** —— 输出议题、决策、风险与行动项 |
+| ![AI 思维导图](assets/screenshots/07-mindmap.webp) | ![任务列表](assets/screenshots/08-tasks.webp) |
+| **AI 思维导图** —— 把会议结构展开成可导出的导图 | **任务列表** —— 从会议中提取的待办，带优先级与截止时间 |
+| ![日程](assets/screenshots/09-calendar.webp) | 更多界面与交互演示见官网<br>[https://www.lingerx.cn](https://www.lingerx.cn) |
+| **日程** —— 月视图汇总录音、任务与 AI 总结 | |
 
 ## 为什么采用“本地优先 + Tauri 2”
 
