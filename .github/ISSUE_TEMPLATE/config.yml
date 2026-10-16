@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 账号、会员与同步问题
+    url: mailto:listennote@lingerx.cn
+    about: 这类问题需要核对账号信息，请邮件联系。请不要在公开 Issue 中提交账号、订单或支付信息。
+  - name: 安全漏洞
+    url: https://github.com/Linlx0628/listenrecord-app/blob/main/SECURITY.md
+    about: 请勿在公开 Issue 中披露尚未修复的漏洞，处理方式见安全策略。
+  - name: 产品介绍与下载
+    url: https://www.lingerx.cn
+    about: 官网提供产品介绍、界面演示与安装包下载。

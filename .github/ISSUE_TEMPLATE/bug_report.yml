@@ -1,0 +1,78 @@
+name: 问题反馈
+description: 报告一个可以复现的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请尽量填全下面的信息 —— 缺少版本与平台信息会让问题很难定位。
+        提交前请先确认使用的是[最新版本](https://github.com/Linlx0628/listenrecord-app/releases/latest)。
+        账号、会员、同步等需要核对账号信息的问题，请直接邮件联系 listennote@lingerx.cn。
+  - type: input
+    id: app_version
+    attributes:
+      label: 应用版本
+      description: 设置 → 关于 中显示的版本号，或安装包文件名中的版本号
+      placeholder: 例如 1.4.2
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Android
+        - iOS
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: 系统版本
+      placeholder: 例如 macOS 15.2 / Windows 11 23H2 / Ubuntu 24.04
+    validations:
+      required: true
+  - type: dropdown
+    id: install_source
+    attributes:
+      label: 安装来源
+      options:
+        - 官网镜像下载
+        - GitHub Releases 下载
+        - 应用内自动更新
+        - 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开……
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息
+      description: 截图、错误提示、日志片段等。提交前请先移除其中的个人信息与会议内容。
+    validations:
+      required: false
